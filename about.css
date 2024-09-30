@@ -1,0 +1,395 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background-color: #2d3a40;
+    padding: 15px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    height: 60px;
+}
+
+.logo {
+    color: #fff;
+    font-size: 24px;
+    float: left;
+    font-weight: bolder;
+}
+
+#menu-toggle {
+    display: none;
+}
+
+.menu-icon {
+    display: none;
+}
+
+.nav-links {
+    list-style: none;
+    float: right;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #ffcc00;
+}
+
+/* Hero About Section */
+.hero-about {
+    background: linear-gradient(135deg, #6e45e2, #88d3ce);
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero-about h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.hero-about p {
+    font-size: 18px;
+}
+
+/* About Me Section */
+.about-details {
+    background-color: #fff;
+    padding: 60px 20px;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.about-left {
+    flex: 1;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 350px;
+    height: auto;
+}
+
+.about-right {
+    flex: 2;
+    padding-left: 40px;
+}
+
+.about-right h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.about-right p {
+    margin-bottom: 20px;
+}
+
+.cta-btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.cta-btn:hover {
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.4s ease;
+}
+
+/* Education Section */
+.education {
+    padding: 40px 0;
+    background-color: #e6e9ee;
+}
+
+.education-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.education-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 350px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-10px);
+}
+
+.education-card i {
+    font-size: 45px;
+    margin-bottom: 15px;
+    color: #6e45e2;
+}
+
+.education-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.education-card span {
+    display: block;
+    /* font-style: italic; */
+    margin-bottom: 10px;
+}
+
+.education-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Certification Section */
+.certifications {
+    padding: 40px 0;
+    background-color: #e6e9ee;
+}
+
+.certifications-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.certification-card {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.certification-card:hover {
+    transform: translateY(-10px);
+}
+
+
+.certification-card h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.certification-card span {
+    display: block;
+    /* font-style: italic; */
+    margin-bottom: 10px;
+}
+
+.certification-card p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Hobbies & Interests Section */
+.hobbies-interests-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.hobby-interest-card {
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s;
+}
+
+.hobby-interest-card i {
+    font-size: 40px;
+    color: #6e45e2;
+    margin-bottom: 15px;
+}
+
+.hobby-interest-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.hobby-interest-card p {
+    font-size: 16px;
+}
+
+.hobby-interest-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #2d3a40;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.social-links a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 20px;
+}
+
+.social-links a:hover {
+    color: #ffcc00;
+    transition: 0.3s;
+}
+
+/* zoom-in hover */
+.zoom:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* Responsive Menu for Mobile */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        background-color: #2d3a40;
+        position: absolute;
+        top: 60px;
+        /* Position below the header */
+        right: 0;
+        width: 100%;
+        z-index: 99;
+    }
+
+    .nav-links li {
+        text-align: center;
+        margin: 0;
+        padding: 15px 0;
+        width: 100%;
+        border-top: 1px solid #444;
+        /* Optional: to separate menu items */
+    }
+
+    #menu-toggle:checked+.menu-icon+.nav-links {
+        display: flex;
+    }
+
+    .menu-icon {
+        display: block;
+        color: #fff;
+        font-size: 24px;
+        float: right;
+        cursor: pointer;
+    }
+}
+/* Education Section Responsive Styles */
+@media (max-width: 768px) {
+    .education-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .education-card {
+        width: 90%;
+        /* Take up more space on smaller screens */
+        margin-bottom: 20px;
+        /* Add space between the cards */
+    }
+}
+
+/* Certifications Section Responsive Styles */
+@media (max-width: 768px) {
+    .certifications-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .certification-card {
+        width: 90%;
+        /* Adjust the width for smaller screens */
+        margin-bottom: 20px;
+        /* Add space between certification cards */
+    }
+}
+
+/* Hobbies & Interests Section Responsive Styles */
+@media (max-width: 768px) {
+    .hobbies-interests-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hobby-interest-card {
+        width: 90%;
+        /* Increase the width for mobile screens */
+        margin-bottom: 20px;
+        /* Add spacing between hobby cards */
+    }
+}
+
+/* General Mobile Styling Adjustments */
+@media (max-width: 480px) {
+
+    .education-card h3,
+    .certification-card h3,
+    .hobby-interest-card h3 {
+        font-size: 20px;
+        /* Reduce heading font size for small screens */
+    }
+
+    .education-card p,
+    .certification-card p,
+    .hobby-interest-card p {
+        font-size: 14px;
+        /* Adjust paragraph text size for better readability */
+    }
+
+    .hero-about h1 {
+        font-size: 36px;
+        /* Smaller font size for hero text */
+    }
+
+    .hero-about p {
+        font-size: 16px;
+        /* Smaller font size for hero paragraph */
+    }
+}

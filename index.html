@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UMInsights_</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="font.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <div class="logo poppins-normal" style="letter-spacing: 3px;">UMInsights_</div>
+            <input type="checkbox" id="menu-toggle">
+            <label for="menu-toggle" class="menu-icon"><i class="fas fa-bars"></i></label>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#blog">Blogs</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="hero-content">
+            <h1>Hi, I'm <span style="color: #ffcc00;">Utso Mondal</span></h1>
+            <h2>A Data Analyst</h2>
+            <a href="about.html" class="cta-btn">Discover Me</a>
+        </div>
+        <div style="padding-top: 30px; display: flex; justify-content: center; gap: 25px;">
+            <a href="https://www.linkedin.com/in/utsomondal/" target="_blank"><img src="images/linkedin.png"
+                    class="zoom" style="width: 40px;"></a>
+            <a href="https://github.com/utsomondal" target="_blank"><img src="images/github.png" class="zoom"
+                    style="width: 40px;"></a>
+            <a href="https://www.kaggle.com/utsomondal" target="_blank"><img src="images/kaggle.png" class="zoom"
+                    style="width: 40px;"></a>
+            <a href="https://www.facebook.com/utso.mondal2019" target="_blank"><img src="images/facebook.png"
+                    class="zoom" style="width: 40px;"></a>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <img src="images/Profile picture.png" alt="Utso Mondal" class="profile-pic">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>I’m a passionate Data Analyst with a background in Computer Science. I specialize in analyzing data
+                    to uncover meaningful insights and help businesses grow. My expertise includes working with large
+                    datasets, visualizing data, and solving complex problems.</p>
+                <a href=" " target="_blank" class="cta-btn">Download CV</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <h2 style="margin-bottom: 30px;letter-spacing: 3px;" class="poppins-semibold">SKILLS</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <img src="images/sql.png" style="width: 50%;" alt="sql">
+                <h3>SQL</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/python.png" style="width: 50%;" alt="python">
+                <h3>Python</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/data-visualization.png" style="width: 50%;" alt="visualization">
+                <h3>Visualization</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/excel.png" style="width: 50%;" alt="Excel">
+                <h3>Excel</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/statistical-analysis.png" style="width: 50%;" alt="Statistical">
+                <h3>Statistical Analysis</h3>
+            </div>
+            <div class="skill-card">
+                <img src="images/machine-learning.png" style="width: 50%;" alt="ml">
+                <h3>Machine Learning</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <h2 style="text-align: center; margin-bottom: 30px; letter-spacing: 3px;" class="poppins-semibold">PROJECTS</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/project1.webp" class="project-img" alt="">
+                <h3>Sales Data Analysis</h3>
+                <p>Analyzed sales data for trends and insights using Python and Power BI. Visualized data through
+                    interactive dashboards.</p>
+                <a href="project1.html" class="cta-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.jpg" class="project-img" alt="">
+                <h3>Customer Segmentation</h3>
+                <p>Used clustering techniques to segment customer data, helping businesses target marketing strategies.
+                </p>
+                <a href="project2.html" class="cta-btn">View Project</a>
+            </div>
+            <div class="project-card">
+                <img src="images/project3.png" class="project-img" alt="">
+                <h3>Stock Price Prediction</h3>
+                <p>Developed a machine learning model to predict stock prices using historical data.</p>
+                <a href="project3.html" class="cta-btn">View Project</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog-section">
+        <h2 style="text-align: center; margin-bottom: 30px; letter-spacing: 3px;" class="poppins-semibold">BLOGS</h2>
+        <div class="blog-grid">
+            <div class="blog-card">
+                <img src="images/project2.jpg" class="project-img" alt="">
+                <h3>Top Data Trends in 2024</h3>
+                <p>An overview of emerging data trends and their impact on the business world.</p>
+                <a href="blog1.html" class="cta-btn">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/project1.webp" class="project-img" alt="">
+                <h3>How I Built a Customer Segmentation Model</h3>
+                <p>Step-by-step breakdown of how I built a customer segmentation model using Python.</p>
+                <a href="blog2.html" class="cta-btn">Read More</a>
+            </div>
+            <div class="blog-card">
+                <img src="images/project3.png" class="project-img" alt="">
+                <h3>How I Built a Customer Segmentation Model</h3>
+                <p>Step-by-step breakdown of how I built a customer segmentation model using Python.</p>
+                <a href="blog2.html" class="cta-btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 style="text-align: center; margin-bottom: 60px; letter-spacing: 3px;" class="poppins-semibold">CONTACT ME
+        </h2>
+        <div class="parent" style="display: flex; justify-content: center; align-items: center; gap: 100px;">
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div
+                    style="width: 100px; height: 100px; background-color: #2d3a40; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <img src="images/address.png" alt="" style="width: 50px;">
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3>Address</h3>
+                    <p>Uttara 17, Dhaka</p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div
+                    style="width: 100px; height: 100px; background-color: #2d3a40; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <img src="images/phone.png" alt="" style="width: 50px;">
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3>Phone</h3>
+                    <p>+880 1580761282</p>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; align-items: center;">
+                <div
+                    style="width: 100px; height: 100px; background-color: #2d3a40; border-radius: 50%; display: flex; align-items: center; justify-content: center;">
+                    <img src="images/email.png" alt="" style="width: 50px;">
+                </div>
+                <div style="margin-top: 10px;">
+                    <h3>E-mail</h3>
+                    <p>utsomondal2019@gmail.com</p>
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: 50px; display: flex; justify-content: center; align-items: center; gap: 10px;">
+            <h3 style="margin-top: 25px;">Have any questions?</h3>
+            <a href="" class="cta-btn">Click here</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 UMInsights. All Rights Reserved.</p>
+        <div class="social-links">
+            <a href="https://linkedin.com/in/utsomondal" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://github.com/utsomondal" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.kaggle.com/utsomondal" target="_blank"><i class="fab fa-kaggle"></i></a>
+            <a href="https://www.facebook.com/utso.mondal2019" target="_blank"><i class="fab fa-facebook"></i></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
